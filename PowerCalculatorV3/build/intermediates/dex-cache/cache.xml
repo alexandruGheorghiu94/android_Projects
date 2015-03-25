@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alexandru\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Alexandru\AndroidStudioProjects\PowerCalculatorV3\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-1cb8f72dfd2e4c03cbdff26dd1656d72808c8a4d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandru\AndroidStudioProjects\PowerCalculatorV3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Alexandru\AndroidStudioProjects\PowerCalculatorV3\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-57e79ade7b2a43e32522ed16f8f0ab743c086a34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexandru\AndroidStudioProjects\PowerCalculatorV3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Alexandru\AndroidStudioProjects\PowerCalculatorV3\app\build\intermediates\pre-dexed\debug\classes-81f87f1deeadc1710c05c729b620ba64bb3b16f0.jar" />
+    </item>
+
+</items>
