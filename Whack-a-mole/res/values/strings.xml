@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whack a mole</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tutorial">Instruction</string>
+    <string name="play">Play</string>
+    <string name="hightscore">Highscore</string>
+    <string name="credit">Credit</string>
+    <string name="rateus">Rate us !</string>
+    <string name="descriere">Ceva</string>
+    <string name="cifra"/>
+    <string name="home">Home</string>
+    <string name="playagain">Play Again ?</string>
+    <string name="clear">Clear</string>
+    <string name="scor"/>
+
+</resources>
