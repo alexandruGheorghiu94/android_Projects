@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anduino</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduction_string_1">\t This application has the role of familiarizing you with the world of Arduino and how it\'s function work.\nThis aplication has a practical part where the user can interact with certain functions of the Arduino board depending on the lesson he is in.</string>
+
+
+</resources>

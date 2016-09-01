@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.tonydicola.bletest.app.Analog"
+    android:orientation="vertical"
+    android:background="#C0C0C0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Signal analogique"
+                    android:id="@+id/textView3"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6"
+                        android:text="\tUn signal analogique est une onde continue notée par une onde sinusoïdale et peut varier l'intensité du signal (amplitude) ou la fréquence (temps). La valeur d'amplitude de l'onde sinusoïdale peut être vu que les points de l'onde supérieure et inférieure, tandis que la fréquence (temps) valeur est mesurée en longueur physique de l'onde sinusoïdale de gauche à droite."
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/imageView3"
+                            android:src="@drawable/analog_signal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Signal analogique représentée comme une onde sinusoïdale"
+                            android:textSize="10dp"
+                            android:id="@+id/textView11" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6"
+                        android:text="Il existe de nombreux exemples de signaux analogiques autour de nous. Le son d'une voix humaine est analogique, parce que les ondes sonores sont continues, comme notre propre vision, parce que nous voyons différentes formes et couleurs de manière continue due à des ondes lumineuses. Même une horloge de cuisine typique ayant ses mains en déplacement continu, peut être représenté sous la forme d'un signal analogique."/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pratique"
+                    android:id="@+id/textView3"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L'example de baisser illustre l'utilisation de la sortie analogique (MLI) à faire un LED s'sobscurit et s'illuminer progressivement. La modulation de largeur d'impulsions (MLI ; en anglais : Pulse Width Modulation, soit PWM),est une technique pour obtenir des résultats analogiques avec des moyens numériques. Ce modèle on-off peut simuler des tensions entre les deux complet sur (5 Volts) et OFF (0 volts) en changeant la partie du moment où le signal passe sur en fonction du temps que le signal passe au large. La durée du temp actif est appelée la largeur d'impulsion. Un appel à analogWrite () est sur une échelle de 0 - 255, de telle sorte que analogWrite (255) demande un cycle de service de 100% (toujours), et analogWrite (127) est un cycle de service de 50% (sur la moitié le temps), par exemple."
+                    android:id="@+id/textView7"
+                    android:paddingTop="10dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/valCurentaPwm"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   0"
+                        android:id="@+id/textView8"
+                        android:layout_gravity="center_vertical"/>
+
+                    <SeekBar
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekBar"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="255"
+                        android:id="@+id/textView9"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Moniteur de connexion"
+                    android:id="@+id/textView3"
+                    android:padding="10dp"
+                    android:textSize="19dp"
+                    android:layout_gravity="center"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:id="@+id/scrollView" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/textView12"
+                        android:padding="10dp"/>
+                </ScrollView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

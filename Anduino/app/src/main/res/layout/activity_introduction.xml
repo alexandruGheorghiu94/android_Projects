@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tonydicola.bletest.app.Introduction"
+    android:background="#C0C0C0">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Introduction"
+                android:id="@+id/textView3"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tArduino est une plateforme de prototypage open-source basé sur le matériel et le logiciel facile à utiliser. cartes Arduino sont capables de lire les entrées - la lumière sur un capteur, un doigt sur un bouton ou un message Twitter - et la transformer en une sortie - activation d'un moteur, d'allumer une LED, publier quelque chose en ligne. Vous pouvez dire à votre conseil ce qu'il faut faire en envoyant un ensemble d'instructions du microcontrôleur sur la carte. Pour ce faire, vous utilisez le langage de programmation Arduino (basé sur le câblage), et l'Arduino Software (IDE), basé sur le traitement."
+                    android:id="@+id/textView4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\tAfin d'interagir avec la carte Arduino afin que vous puissiez pratiquer les nouvelles choses apprises vous avez besoin les suivants:\n\t - une carte Arduino\n\t - le circuit imprimee Adafruit NRF8001"
+                    android:id="@+id/textView5" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
