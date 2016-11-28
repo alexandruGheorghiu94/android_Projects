@@ -10,7 +10,7 @@ The app is composed of 7 activities, each activity is represented by a class tha
 
 ![Alt text](Anduino/description_images/img1.PNG)
 
-![Alt text](/img1.PNG?raw=true "Indoor Location Detection")
+![Alt text](description_images/img1.PNG?raw=true "Indoor Location Detection")
 
 
 
