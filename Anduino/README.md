@@ -6,10 +6,6 @@ This application allows the users of Android devices to learn about the Arduino 
 ##GUI
 The app is composed of 7 activities, each activity is represented by a class that can be seen in the UML diagram seen below.
 
-![test1]({{site.baseurl}}/description_images/img1.PNG)
-
-![Alt text](Anduino/description_images/img1.PNG)
-
 ![Alt text](description_images/img1.PNG?raw=true "Indoor Location Detection")
 
 
