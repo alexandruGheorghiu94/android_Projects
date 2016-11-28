@@ -6,7 +6,7 @@ This application allows the users of Android devices to learn about the Arduino 
 ##GUI
 The app is composed of 7 activities, each activity is represented by a class that can be seen in the UML diagram seen below.
 ![]({{site.baseurl}}/Anduino/diagrame%20UML.PNG)
-![]({{site.baseurl}}/http://imgur.com/thKT2Ue)
+![]({{site.baseurl}}/http://i.imgur.com/thKT2Ue.png)
 
 
 
