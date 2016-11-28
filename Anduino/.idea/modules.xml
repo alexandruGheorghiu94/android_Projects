@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BTLETest-master.iml" filepath="$PROJECT_DIR$/BTLETest-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Anduino.iml" filepath="$PROJECT_DIR$/Anduino.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
