@@ -4,7 +4,7 @@ Anduino
 This application allows the users of Android devices to learn about the Arduino ecosystem and how to use the core functions of the board: the use of analog & digital signals and also implementation of the most known example used on the Arduino board (Blink of an LED and the fade in & out of an LED).
 
 ##GUI
-The app is composed of 7 activities, each activity is represented by a class that can be seen in the UML diagram seen below.![diagrame UML.PNG]({{site.baseurl}}/Anduino/diagrame UML.PNG)
+The app is composed of 7 activities, each activity is represented by a class that can be seen in the UML diagram seen below.![]({{site.baseurl}}/Anduino/diagrame%20UML.PNG)
 
 
 
