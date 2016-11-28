@@ -17,7 +17,7 @@ At startup you enter in the welcome screen where you have only 1 option: to ente
 
 <p align="center">
 <figure>
-<img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400">
+<img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400"/>
 <figcaption>Caption goes here</figcaption>
 </figure>
 <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400">
