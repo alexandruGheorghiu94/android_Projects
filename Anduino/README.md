@@ -10,6 +10,9 @@ The app is composed of 7 activities, each activity is represented by a class tha
 <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img1.PNG" width="800">
 </p>
 
+| <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400"/> | <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400"/> |
+| --- | --- |
+| git status | List all new or modified files |
 At startup you enter in the welcome screen where you have only 1 option: to enter in the list containing the tutorials.
 <p align="center">
 <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400"/>
