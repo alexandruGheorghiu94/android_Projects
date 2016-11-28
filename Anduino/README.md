@@ -1,6 +1,10 @@
 Anduino
 ========
 
+This application allows the users of Android devices to learn about the Arduino ecosystem and how to use the core functions of the board: the use of analog & digital signals and also implementation of the most known example used on the Arduino board (Blink of an LED and the fade in & out of an LED).
+
+
+
 Simple test for sending and receiving data to a Bluetooth Low Energy UART service from an Android 4.3 or 4.4 device.
 
 [Load the APK](https://github.com/tdicola/BTLETest/raw/master/app/BTLETest.apk) on your Android 4.3 or 4.4 device (highly suggest 4.4 as BTLE is quite unstable in Android!).  Make sure to [enable loading apps from unknown sources](http://developer.android.com/distribute/open.html#unknown-sources) first.
