@@ -11,9 +11,7 @@ The app is composed of 7 activities, each activity is represented by a class tha
 </p>
 
 At startup you enter in the welcome screen where you have only 1 option: to enter in the list containing the tutorials.
-<div style="max-width: 400px;">
 <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400"/>
-</div>
 <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img10.png" width="400">
 
 
