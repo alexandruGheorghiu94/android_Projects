@@ -11,7 +11,7 @@ The app is composed of 7 activities, each activity is represented by a class tha
 </p>
 
 | ![](description_images/img10.png?raw=true "img1") | ![](description_images/img12.png?raw=true "img1") |
-| --- | --- |
+| :---: | :---: |
 | Fig. 1 Intro screen | Fig. 2 List of tutorial activity |
 At startup you enter in the welcome screen where you have only 1 option: to enter in the list containing the tutorials.
 <p align="center">
