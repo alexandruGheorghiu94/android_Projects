@@ -16,8 +16,6 @@ At startup you enter in the welcome screen where you have only 1 option: to ente
 | :---: | :---: |
 | Fig. 1 Intro screen | Fig. 2 List of tutorial activity |
 
-<p align="center">
-</p>
 
 
 
