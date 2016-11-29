@@ -16,7 +16,11 @@ At startup you enter in the welcome screen where you have only 1 option: to ente
 | :---: | :---: |
 | Fig. 1 Intro screen | Fig. 2 List of tutorial activity |
 
+The tutorial activity is composed of sub-menus that lead to their respective tutorial where the user can do a certain task. The **Introduction** activity represented by the __"Avant de commencer"__ sub-menu contains info about Arduino and the things required in order to use the practical part.
 
+| ![](description_images/img2.png?raw=true "img1") | ![](description_images/img3.png?raw=true "img1") |
+| :---: | :---: |
+| Fig. 3 Intro screen | Fig. 4 List of tutorial activity |
 
 
 Simple test for sending and receiving data to a Bluetooth Low Energy UART service from an Android 4.3 or 4.4 device.
