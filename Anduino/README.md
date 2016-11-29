@@ -22,7 +22,7 @@ The tutorial activity is composed of sub-menus that lead to their respective tut
 
 | ![](description_images/img2.png?raw=true "img1") | ![](description_images/img3.png?raw=true "img1") |
 | :---: | :---: |
-| Fig. 4 Intro screen | Fig. 5 List of tutorial activity |
+| Fig. 4 Introduction activity | Fig. 5 Connexion monitor |
 
 
 Simple test for sending and receiving data to a Bluetooth Low Energy UART service from an Android 4.3 or 4.4 device.
