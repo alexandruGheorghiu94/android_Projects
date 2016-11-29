@@ -10,12 +10,10 @@ The app is composed of 7 activities, each activity is represented by a class tha
 <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img1.PNG" width="800">
 </p>
 
+At startup you enter in the welcome screen where you have only 1 option: to enter in the list containing the tutorials.
 | ![](description_images/img10.png?raw=true "img1") | ![](description_images/img12.png?raw=true "img1") |
 | :---: | :---: |
 | Fig. 1 Intro screen | Fig. 2 List of tutorial activity |
-At startup you enter in the welcome screen where you have only 1 option: to enter in the list containing the tutorials.
-<p align="center">
-</p>
 
 
 
