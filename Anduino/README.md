@@ -18,8 +18,6 @@ At startup you enter in the welcome screen where you have only 1 option: to ente
 </p>
 
 
-![](description_images/img2.png?raw=true "img1")
-
 
 Simple test for sending and receiving data to a Bluetooth Low Energy UART service from an Android 4.3 or 4.4 device.
 
