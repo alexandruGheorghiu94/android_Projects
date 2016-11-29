@@ -24,6 +24,8 @@ The tutorial activity is composed of sub-menus that lead to their respective tut
 | :---: | :---: |
 | Fig. 4 Introduction activity | Fig. 5 Connexion monitor |
 
+All the activities that are lauched from the list menu exept the Introduction activity contain a bluetooth connexion protocol. In order to see if the bluetooth connexion is establised each activity also contains a bluetooth connexion monitor (Fig. 5) that has the role of informing the user if the Android device is connected to the Arduino board.
+
 
 Simple test for sending and receiving data to a Bluetooth Low Energy UART service from an Android 4.3 or 4.4 device.
 
