@@ -6,9 +6,13 @@ This application allows the users of Android devices to learn about the Arduino 
 ##GUI
 The app is composed of 7 activities, each activity is represented by a class that can be seen in the UML diagram seen below.
 
-| <p align="center"> <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img1.PNG" width="800"> </p> |
+<p align="center">
+
+| <img src="https://raw.githubusercontent.com/alexandruGheorghiu94/android_Projects/master/Anduino/description_images/img1.PNG" width="800"> |
 | :---: |
-| Fig. 1 Intro screen | 
+| Fig. 1 UML diagram | 
+
+</p> 
 
 At startup you enter in the welcome screen where you have only 1 option: to enter in the list containing the tutorials.
 
