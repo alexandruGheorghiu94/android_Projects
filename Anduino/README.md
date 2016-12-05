@@ -8,6 +8,10 @@ In order to get the app on your phone you have 2 option:
 * Import the project into Android Studio and run it on the device you with. Note that you must have USB debugging active in the developers options tab.
 * Download the project and search in its folder the "app-debug.apk" file. Transfer in onto your device and install it. Make sure to [enable loading apps from unknown sources](http://developer.android.com/distribute/open.html#unknown-sources) first.
 
+##Additional info
+In order for this app to work....TBC
+
+
 ##GUI
 The app is composed of 7 activities, each activity is represented by a class that can be seen in the UML diagram seen below.
 
