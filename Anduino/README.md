@@ -9,7 +9,9 @@ In order to get the app on your phone you have 2 option:
 * Download the project and search in its folder the "app-debug.apk" file. Transfer in onto your device and install it. Make sure to [enable loading apps from unknown sources](http://developer.android.com/distribute/open.html#unknown-sources) first.
 
 ##Additional info
-In order for this app to work....TBC
+This app has its whole content in french. The reason of that is because my bachelor thesis was based on this app and had to be in french for demonstration purposes.
+
+In order for this app to fully work you require an Arduino board and a [Bluefruit LE - Bluetooth Low Energy (BLE 4.0) - nRF8001 Breakout - v1.0](https://www.adafruit.com/product/1697) connected to the board. Also you require to load a specific program onto the Arduino board that can be found into my arduino_projects repository.
 
 
 ##GUI
