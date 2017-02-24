@@ -12,7 +12,7 @@ In order to get the app on your phone you have 2 option:
 
 The app is composed of a single activity where the user inserts the informations regarding his device. in each category the user has the option of chosing different types of unit of measure based on his/her's prefferences.
 
-| ![](description_images/img10.png?raw=true "img1") |
+| ![](description_images/img1.png?raw=true "img1") |
 | :---: |
 | Fig. 1 Intro screen |
 
