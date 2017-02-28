@@ -12,7 +12,7 @@ In order to get the app on your phone you have 2 option:
 This app has its whole content in french. The reason of that is because my bachelor thesis was based on this app and had to be in french for demonstration purposes.
 
 In order for this app to fully work you require an Arduino board and a [Bluefruit LE - Bluetooth Low Energy (BLE 4.0) - nRF8001 Breakout - v1.0](https://www.adafruit.com/product/1697) connected to the board. Also you require to load a specific program onto the Arduino board that can be found into my arduino_projects repository.
-For more details on how to hook up the bluetooth board to the Arduino check [here](https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout/hooking-everything-up) for more details.
+For more details on how to hook up the bluetooth board to the Arduino check [here](https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout/hooking-everything-up).
 
 
 ##GUI
